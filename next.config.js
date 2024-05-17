@@ -4,6 +4,7 @@ const path = require('path'); // eslint-disable-line @typescript-eslint/no-var-r
 
 const nextConfig = {
   output: 'export',
+  basePath: '',
   reactStrictMode: true,
 
   compiler: {
