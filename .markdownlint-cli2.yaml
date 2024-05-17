@@ -6,8 +6,8 @@ config:
   no-duplicate-header: false
   single-trailing-newline: false
 globs:
-  - "**/*.md"
+  - '**/*.md'
 ignores:
-  - ".tox/**"
-  - "venv/**"
-  - ".venv/**"
+  - '.tox/**'
+  - 'venv/**'
+  - '.venv/**'
