@@ -1,4 +1,4 @@
-import { FC, useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useInView } from 'framer-motion';
 import { Node, DashedNode } from './Node';
 import useBreakpoint, { Breakpoint } from '../../../utils/useBreakpoint';
@@ -16,7 +16,7 @@ const lvl2 = lvl1 + 10 + lvlDelay;
 const lvl3 = lvl2 + 7 + lvlDelay;
 const lvl4 = lvl3 + 4 + lvlDelay;
 
-const TaxonomyTree: FC = () => {
+const TaxonomyTree = () => {
   const animationRef = useRef<HTMLDivElement>(null);
   const animationStarted = useRef(true);
   const inView = useInView(animationRef, { once: true });

@@ -1,12 +1,12 @@
 'use client';
 
 import { cubicBezier, motion, useInView } from 'framer-motion';
-import { FC, useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 
 import styles from './ReleaseCycleDiagram.module.scss';
 import { useResizeObserver } from '@react-hookz/web';
 
-const ReleaseCycleDiagram: FC = () => {
+const ReleaseCycleDiagram = () => {
   const wrapperRef = useRef<SVGSVGElement>(null);
   const isInView = useInView(wrapperRef, { once: true });
   const [baseFontSize, setBaseFontSize] = useState(16);

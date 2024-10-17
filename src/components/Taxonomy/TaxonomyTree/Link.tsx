@@ -1,4 +1,4 @@
-import { FC, RefObject, useEffect, useState } from 'react';
+import { RefObject, useEffect, useState } from 'react';
 import { LINE_DRAW_SPEED, NODE_DELAY } from './TaxonomyTree';
 import { Variants, cubicBezier, motion } from 'framer-motion';
 import classNames from 'classnames';
@@ -44,13 +44,15 @@ const dashedLinkVariants: Variants = {
   }),
 };
 
-const Link: FC<{
+type LinkProps = {
   idx?: number;
   src: RefObject<HTMLDivElement>;
   dest: RefObject<HTMLDivElement>;
   dashed?: boolean;
   selected?: boolean;
-}> = ({ src, dest, dashed, selected, idx }) => {
+};
+
+const Link = ({ src, dest, dashed, selected, idx }: LinkProps) => {
   const [rendered, setRendered] = useState(false);
 
   useEffect(() => {

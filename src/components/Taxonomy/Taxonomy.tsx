@@ -1,17 +1,13 @@
 'use client';
 
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import { Column, Grid } from '@carbon/react';
 import TaxonomyTree from './TaxonomyTree/TaxonomyTree';
 import useResize from '../../utils/useResize';
 
 import styles from './Taxonomy.module.scss';
 
-type Taxonomy = {
-  //
-};
-
-const StartExperimenting: FC<Taxonomy> = () => {
+const StartExperimenting = () => {
   const [showTree, setShowTree] = useState(true);
   useResize(
     () => setShowTree(true),
