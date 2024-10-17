@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React from 'react';
 
-const Logo: FC = () => {
+const Logo = () => {
   // eslint-disable-next-line @next/next/no-img-element
   return <img src="logo.png" alt="A cute dog" />;
 };

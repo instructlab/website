@@ -1,6 +1,6 @@
 'use client';
 
-import { FC, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Terminal from 'react-animated-term';
 import 'react-animated-term/dist/react-animated-term.css';
 import styles from './AnimatedTerminal.module.scss';
@@ -19,7 +19,7 @@ const animations = [
   { value: chat, duration: 6000 },
 ];
 
-const AnimatedTerminal: FC = () => {
+const AnimatedTerminal = () => {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true });
   const {

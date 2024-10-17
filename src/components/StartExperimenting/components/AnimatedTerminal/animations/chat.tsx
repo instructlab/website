@@ -2,11 +2,17 @@ import wait from './wait';
 
 import styles from './animationStyles.module.scss';
 
-const BorderedResponse: React.FC<{
+type BorderedResponseProps = {
   title?: string;
   children?: React.ReactNode;
   footer?: string;
-}> = ({ children, title, footer }) => {
+};
+
+const BorderedResponse = ({
+  children,
+  title,
+  footer,
+}: BorderedResponseProps) => {
   return (
     <div className={styles.borderedAnswer}>
       {title ? (

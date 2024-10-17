@@ -5,15 +5,7 @@ import {
   useScroll,
   useTransform,
 } from 'framer-motion';
-import {
-  FC,
-  memo,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from 'react';
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import DebugAnimationContext from './utils/DebugAnimationContext';
 import InfographicAnimation, {
   InfographicAnimationProps,
@@ -72,11 +64,7 @@ const steps = [
 
 const SLIDE_HEIGHT = 800;
 
-type SlideshowProps = {
-  //
-};
-
-const Slideshow: FC<SlideshowProps> = () => {
+const Slideshow = () => {
   const slidesLength = 4;
   const { height: windowHeight, width: windowWidth } = useWindowSize();
   const wrapperRef = useRef<HTMLDivElement>(null);
