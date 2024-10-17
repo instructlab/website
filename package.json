@@ -14,7 +14,7 @@
     "@carbon/react": "^1.68.0",
     "@react-hookz/web": "^24.0.4",
     "classnames": "^2.5.1",
-    "framer-motion": "^11.5.6",
+    "framer-motion": "^11.11.9",
     "next": "14.2.15",
     "react": "18.3.1",
     "react-animated-term": "^2.0.0",
