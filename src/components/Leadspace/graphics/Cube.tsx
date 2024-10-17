@@ -8,7 +8,7 @@ import {
   motion,
   useInView,
 } from 'framer-motion';
-import { FC, useMemo, useRef } from 'react';
+import { useMemo, useRef } from 'react';
 
 import styles from './Cube.module.scss';
 
@@ -20,7 +20,7 @@ const phaseTransition = ([start, end, easing]: Phase) => ({
   ease: easing,
 });
 
-const Cube: FC = () => {
+const Cube = () => {
   const animationRef = useRef<HTMLDivElement>(null);
   const inView = useInView(animationRef, { once: true });
 

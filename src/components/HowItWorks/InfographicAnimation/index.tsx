@@ -1,4 +1,4 @@
-import { FC, Fragment, useEffect, useCallback, useState } from 'react';
+import { Fragment, useEffect, useCallback, useState } from 'react';
 import { infographicList } from './constant';
 
 import styles from './InfographicAnimation.module.scss';
@@ -17,12 +17,14 @@ const getPos = (
   return pos === 0 ? '0' : `${(pos / originalSize[idx]) * 100}%`;
 };
 
-const LayerImg: FC<{
+type LayerImgProps = {
   layer: Layer; // eslint-disable-line
   size: number;
   originalSize: number[];
   isAnimOn: boolean;
-}> = ({ layer, size, originalSize, isAnimOn }) => {
+};
+
+const LayerImg = ({ layer, size, originalSize, isAnimOn }: LayerImgProps) => {
   const [targetStyle, setTargetStyle] = useState({});
   const [animList, setAnimList] = useState<any[] | null>(null); // eslint-disable-line
   const Img = layer.img;
@@ -114,11 +116,11 @@ export type InfographicAnimationProps = {
   isOn?: boolean;
 };
 
-const InfographicAnimation: FC<InfographicAnimationProps> = ({
+const InfographicAnimation = ({
   size,
   kind,
   isOn = true,
-}) => {
+}: InfographicAnimationProps) => {
   const [animList, setAnimList] = useState<any>(null); // eslint-disable-line
   const [isAnimOn, setIsAnimOn] = useState(false);
   const [animWidth, setAnimWidth] = useState(size);

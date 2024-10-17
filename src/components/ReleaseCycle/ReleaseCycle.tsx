@@ -1,14 +1,9 @@
-import { FC } from 'react';
 import { Column, Grid } from '@carbon/react';
 
 import styles from './ReleaseCycle.module.scss';
 import ReleaseCycleDiagram from './graphics/ReleaseCycleDiagram';
 
-type ReleaseCycleProps = {
-  //
-};
-
-const ReleaseCycle: FC<ReleaseCycleProps> = () => (
+const ReleaseCycle = () => (
   <section>
     <Grid>
       <Column
