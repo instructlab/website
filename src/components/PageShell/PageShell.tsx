@@ -1,4 +1,4 @@
-import { FC, ReactNode, useMemo } from 'react';
+import { ReactNode, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import classNames from 'classnames';
 
@@ -9,7 +9,7 @@ type PageShellProps = {
   className?: string;
 };
 
-const PageShell: FC<PageShellProps> = ({ children, className }) => {
+const PageShell = ({ children, className }: PageShellProps) => {
   const pageVariants = useMemo(
     () => ({
       hide: { opacity: 0 },

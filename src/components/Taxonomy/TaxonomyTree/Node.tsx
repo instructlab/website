@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { Variants, motion } from 'framer-motion';
 import Link from './Link';
-import { FC, ReactNode, RefObject, useRef } from 'react';
+import { ReactNode, RefObject, useRef } from 'react';
 import { NODE_DELAY, LINE_DRAW_SPEED } from './TaxonomyTree';
 
 import styles from './TaxonomyTree.module.scss';
@@ -93,7 +93,7 @@ const typedTextVariants: Variants = {
   }),
 };
 
-export const DashedNode: FC<NodeProps> = ({
+export const DashedNode = ({
   children: renderChildren,
   className,
   idx,
@@ -102,7 +102,7 @@ export const DashedNode: FC<NodeProps> = ({
   parent,
   top,
   width,
-}) => {
+}: NodeProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
   return (
@@ -134,7 +134,7 @@ export const DashedNode: FC<NodeProps> = ({
   );
 };
 
-export const Node: FC<NodeProps> = ({
+export const Node = ({
   children: renderChildren,
   className,
   idx,
@@ -144,7 +144,7 @@ export const Node: FC<NodeProps> = ({
   selected,
   top,
   width,
-}) => {
+}: NodeProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
   return (
