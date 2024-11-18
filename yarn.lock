@@ -1086,16 +1086,16 @@
   dependencies:
     "@ibm/telemetry-js" "^1.5.0"
 
-"@carbon/react@^1.69.0":
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.69.0.tgz#e8b5fcf4a4a58fea748e8f8c9d4d4bc7e477ffcd"
-  integrity sha512-w28Irg0+finWTtUI91U8mOn8Jd4+iftyN6rTnDlGUl5kGeVvudMbHUPxFN9TFafo/ZNV/WXE1Uxq+ovFo0/3lA==
+"@carbon/react@^1.70.0":
+  version "1.70.0"
+  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.70.0.tgz#c17f3056089c944fb0159308d2458a74dccb987a"
+  integrity sha512-apWlIJl4S67UZjrBookN7DFqiAMZ9jhISRsxa5HFwrmGT71MsVXuvdyB5IVtjWinqdLZVr0Z22FTbex0RM18rg==
   dependencies:
     "@babel/runtime" "^7.24.7"
     "@carbon/feature-flags" "^0.24.0"
     "@carbon/icons-react" "^11.52.0"
     "@carbon/layout" "^11.28.0"
-    "@carbon/styles" "^1.68.0"
+    "@carbon/styles" "^1.69.0"
     "@floating-ui/react" "^0.26.0"
     "@ibm/telemetry-js" "^1.5.0"
     classnames "2.5.1"
@@ -1114,10 +1114,10 @@
     use-resize-observer "^6.0.0"
     window-or-global "^1.0.1"
 
-"@carbon/styles@^1.68.0":
-  version "1.68.0"
-  resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.68.0.tgz#99854efe1eb90d4f75f158aeb4ed39d8853c6c8e"
-  integrity sha512-KzUGmUrsWAb9Ln1CfRc38ELHEf7VgTriWwwOcoAEMhurkwX4Qb5kUi1mQ4DYTaNRfdDr7sj20Mirq0di8dquqA==
+"@carbon/styles@^1.69.0":
+  version "1.69.0"
+  resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.69.0.tgz#d33978e0cf4d671ede25bf51a253eedebfcb3519"
+  integrity sha512-sGULu6xXXvwipKyMYRgkHWezmT9qPwHxpD1bW2e7pzTIvy27g46Z3MP8xNtEzMIqEhmxBDh2P4imcKTusYHaQw==
   dependencies:
     "@carbon/colors" "^11.28.0"
     "@carbon/feature-flags" "^0.24.0"
