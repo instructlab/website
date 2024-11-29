@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format:fix": "yarn prettier . --write",
-    "format:check": "yarn prettier . --check"
+    "format:check": "yarn prettier . --check",
+    "postinstall": "git config commit.template .gitmessage"
   },
   "dependencies": {
     "@carbon/react": "^1.71.0",
