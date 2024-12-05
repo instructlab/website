@@ -1086,10 +1086,10 @@
   dependencies:
     "@ibm/telemetry-js" "^1.5.0"
 
-"@carbon/react@^1.71.0":
-  version "1.71.0"
-  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.71.0.tgz#4e41efec90cd8837c184c8cfc45fc552ecaddea9"
-  integrity sha512-OavbieRyUk11s6g9vClrzVTnWkoRbEcXjtieI7CD0lvHVAEc5hNf1+lKtS27LINBPKchJdi6Ox/p7N9Vc0jh1g==
+"@carbon/react@^1.71.1":
+  version "1.71.1"
+  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.71.1.tgz#05d943dd605b106ac3b95df3f8c213d74f0d3ff3"
+  integrity sha512-wLlHFwJKoCFt2ltpvc9mRfdMtRg3YTNr/GHGcNFNfPjRtNFTuTx/ImmXc9WInctsEts3i2VOizT/pdRJ9fAP+A==
   dependencies:
     "@babel/runtime" "^7.24.7"
     "@carbon/feature-flags" "^0.24.0"
@@ -1104,7 +1104,6 @@
     flatpickr "4.6.13"
     invariant "^2.2.3"
     lodash.debounce "^4.0.8"
-    lodash.findlast "^4.5.0"
     lodash.omit "^4.5.0"
     lodash.throttle "^4.1.1"
     prop-types "^15.7.2"
@@ -3630,11 +3629,6 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
-
-lodash.findlast@^4.5.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.findlast/-/lodash.findlast-4.6.0.tgz#ea8bb78cf2e7e7804fc8aeb7d1953e07fe31fbc8"
-  integrity sha512-+OGwb1FVKjhc2aIEQ9vKqNDW1a0/HaCLr0iCIK10jfVif3dBE0nhQD0jOZNZLh7zOlmFUTrk+vt85eXoH4vKuA==
 
 lodash.merge@^4.6.2:
   version "4.6.2"
