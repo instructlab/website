@@ -11,7 +11,7 @@
     "format:check": "yarn prettier . --check"
   },
   "dependencies": {
-    "@carbon/react": "^1.71.0",
+    "@carbon/react": "^1.72.0",
     "@react-hookz/web": "^24.0.4",
     "classnames": "^2.5.1",
     "framer-motion": "^11.13.1",
