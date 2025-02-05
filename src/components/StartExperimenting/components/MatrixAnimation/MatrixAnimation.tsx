@@ -1,6 +1,6 @@
 'use client';
 
-import { FC, useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import styles from './MatrixAnimation.module.scss';
 import classNames from 'classnames';
 import { useInView } from 'framer-motion';
@@ -13,9 +13,11 @@ enum Color {
 
 const PAINTED_TILES = 8;
 
-const Tile: FC<{
+type TileProps = {
   color: Color;
-}> = ({ color }) => {
+};
+
+const Tile = ({ color }: TileProps) => {
   return (
     <div
       className={classNames(styles.cell, {
@@ -39,7 +41,7 @@ const pickRandomIds = (count: number, max: number, avoid: string[] = []) => {
   return result;
 };
 
-const MatrixAnimation: FC = () => {
+const MatrixAnimation = () => {
   const isFresh = useRef<Record<string, boolean>>({});
   const timeout = useRef<any>(); // eslint-disable-line
   const wrapperRef = useRef<HTMLDivElement>(null);
