@@ -26,7 +26,7 @@ Ensure you have `yarn` installed by running the command:
 yarn -v
 ```
 
-If you do not have `yarn` installed, intsall `yarn`: see [link](https://www.npmjs.com/package/yarn).
+If you do not have `yarn` installed, install `yarn`: see [link](https://www.npmjs.com/package/yarn).
 
 ### Setting up the local environment
 
