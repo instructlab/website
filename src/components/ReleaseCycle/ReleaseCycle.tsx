@@ -4,9 +4,7 @@ import { Column, Grid } from '@carbon/react';
 import styles from './ReleaseCycle.module.scss';
 import ReleaseCycleDiagram from './graphics/ReleaseCycleDiagram';
 
-type ReleaseCycleProps = {
-  //
-};
+type ReleaseCycleProps = object;
 
 const ReleaseCycle: FC<ReleaseCycleProps> = () => (
   <section>
