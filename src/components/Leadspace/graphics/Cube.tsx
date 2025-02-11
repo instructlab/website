@@ -1,13 +1,7 @@
 'use client';
 
-import {
-  EasingFunction,
-  Variants,
-  cubicBezier,
-  easeInOut,
-  motion,
-  useInView,
-} from 'framer-motion';
+import type { EasingFunction, Variants } from 'framer-motion';
+import { cubicBezier, easeInOut, motion, useInView } from 'framer-motion';
 import { FC, useMemo, useRef } from 'react';
 
 import styles from './Cube.module.scss';
