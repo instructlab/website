@@ -10,7 +10,9 @@ const useLoop = <T>(values: LoopValue<T>[], defaultValue: LoopValue<T>) => {
   const [value, setValue] = useState(defaultValue.value);
 
   const stop = useCallback(() => {
-    timeoutRef.current && clearTimeout(timeoutRef.current);
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
   }, []);
 
   const start = useCallback(() => {
