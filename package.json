@@ -11,10 +11,10 @@
     "format:check": "yarn prettier . --check"
   },
   "dependencies": {
-    "@carbon/react": "^1.74.0",
+    "@carbon/react": "^1.75.0",
     "@react-hookz/web": "^25.0.1",
     "classnames": "^2.5.1",
-    "framer-motion": "^12.0.6",
+    "framer-motion": "^12.4.2",
     "next": "15.1.6",
     "react": "18.3.1",
     "react-animated-term": "^2.0.0",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
-    "@types/node": "22.13.0",
+    "@types/node": "22.13.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -31,8 +31,8 @@
     "eslint-config-next": "14.2.15",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
-    "prettier": "3.4.2",
-    "sass": "^1.83.4",
-    "typescript": "5.7.2"
+    "prettier": "3.5.0",
+    "sass": "^1.84.0",
+    "typescript": "5.7.3"
   }
 }
