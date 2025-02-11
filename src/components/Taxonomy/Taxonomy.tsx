@@ -7,9 +7,7 @@ import useResize from '../../utils/useResize';
 
 import styles from './Taxonomy.module.scss';
 
-type Taxonomy = {
-  //
-};
+type Taxonomy = object;
 
 const StartExperimenting: FC<Taxonomy> = () => {
   const [showTree, setShowTree] = useState(true);

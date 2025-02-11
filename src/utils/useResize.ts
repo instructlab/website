@@ -19,7 +19,7 @@ const useResize = (callback?: () => void, onStart?: () => void) => {
 
   useEffect(() => {
     window.addEventListener('resize', resizeHandler);
-    () => window.removeEventListener('resize', resizeHandler);
+    return () => window.removeEventListener('resize', resizeHandler);
   }, [resizeHandler]);
 
   return { isResizing };

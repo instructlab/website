@@ -72,9 +72,7 @@ const steps = [
 
 const SLIDE_HEIGHT = 800;
 
-type SlideshowProps = {
-  //
-};
+type SlideshowProps = object;
 
 const Slideshow: FC<SlideshowProps> = () => {
   const slidesLength = 4;
