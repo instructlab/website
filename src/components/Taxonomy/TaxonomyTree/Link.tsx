@@ -1,6 +1,7 @@
 import { FC, RefObject, useEffect, useState } from 'react';
 import { LINE_DRAW_SPEED, NODE_DELAY } from './TaxonomyTree';
-import { Variants, cubicBezier, motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
+import { cubicBezier, motion } from 'framer-motion';
 import classNames from 'classnames';
 
 import styles from './TaxonomyTree.module.scss';
