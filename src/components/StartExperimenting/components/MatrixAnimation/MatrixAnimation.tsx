@@ -41,7 +41,7 @@ const pickRandomIds = (count: number, max: number, avoid: string[] = []) => {
 
 const MatrixAnimation: FC = () => {
   const isFresh = useRef<Record<string, boolean>>({});
-  const timeout = useRef<any>(); // eslint-disable-line
+  const timeout = useRef<any>({}); // eslint-disable-line
   const wrapperRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(wrapperRef);
 

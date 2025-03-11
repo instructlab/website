@@ -47,8 +47,8 @@ const dashedLinkVariants: Variants = {
 
 const Link: FC<{
   idx?: number;
-  src: RefObject<HTMLDivElement>;
-  dest: RefObject<HTMLDivElement>;
+  src: RefObject<HTMLDivElement | null>;
+  dest: RefObject<HTMLDivElement | null>;
   dashed?: boolean;
   selected?: boolean;
 }> = ({ src, dest, dashed, selected, idx }) => {
