@@ -12,12 +12,12 @@ const LABEL_DRAW_SPEED = 0.3;
 const TIMING_OVERLAP = 0.2;
 
 type NodeProps = {
-  children?: (ref: RefObject<HTMLDivElement>) => ReactNode;
+  children?: (ref: RefObject<HTMLDivElement | null>) => ReactNode;
   className?: string;
   idx: number;
   label?: string;
   left?: number | string;
-  parent?: RefObject<HTMLDivElement>;
+  parent?: RefObject<HTMLDivElement | null>;
   selected?: boolean;
   top?: number | string;
   width?: number | string;
