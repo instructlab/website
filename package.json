@@ -15,7 +15,7 @@
     "@react-hookz/web": "^25.1.0",
     "classnames": "^2.5.1",
     "framer-motion": "^12.4.11",
-    "next": "15.2.1",
+    "next": "15.2.2",
     "react": "19.0.0",
     "react-animated-term": "^2.0.0",
     "react-dom": "19.0.0",
