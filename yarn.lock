@@ -1647,17 +1647,12 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.0.tgz#8dff61038cb5884789d8b323d9869e5363b976f7"
   integrity sha512-vsJDAkYR6qCPu+ioGScGiMYR7LvZYIXh/dlQeviqoTWNCVfKTLYD/LkNWH4Mxsv2a5vpIRc77FN5DnmK1eBggQ==
 
-"@react-hookz/deep-equal@^3.0.1":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@react-hookz/deep-equal/-/deep-equal-3.0.3.tgz#8e2a9a3c73eb762e5eee1037840ff313e93da849"
-  integrity sha512-SLy+NmiDpncqc2d9TR4Y4R7f8lUFOQK9WbnIq02A6wDxy+dTHfA2Np0dPvj0SFp6i1nqERLmEUe9MxPLuO/IqA==
-
-"@react-hookz/web@^25.1.0":
-  version "25.1.0"
-  resolved "https://registry.yarnpkg.com/@react-hookz/web/-/web-25.1.0.tgz#5ea1755128a35e782bf1c6ff17a4ded242e073c4"
-  integrity sha512-+ra/hRG5vPXbwzvQp+YQRn+YlnFNd3eM/lieYW7M/YY2kUjM3ODmD3sZksFQ4P0eVUlqLXe+kSipw8fvLX4mww==
+"@react-hookz/web@^25.1.1":
+  version "25.1.1"
+  resolved "https://registry.yarnpkg.com/@react-hookz/web/-/web-25.1.1.tgz#20adbcd56f7be938e5989ae3e7ba78801e9d4206"
+  integrity sha512-o1BA+5Z8PCuAnxF7+2TZI+xGBtzyLw8z/flD8AMeJXILYTM8HkI0g41oM7IW/qjUDKx30HKceQQpCKqFGj+iIw==
   dependencies:
-    "@react-hookz/deep-equal" "^3.0.1"
+    "@ver0/deep-equal" "^1.0.0"
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -1941,6 +1936,11 @@
   dependencies:
     "@typescript-eslint/types" "8.6.0"
     eslint-visitor-keys "^3.4.3"
+
+"@ver0/deep-equal@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ver0/deep-equal/-/deep-equal-1.0.0.tgz#343bb7c86499ce5e69948fc43067c94be4dbd7f4"
+  integrity sha512-XKIlF1i6UJiyTL52mDrSDDgRX7Qr5yJ7ts9zn2liZEmhiAEum4XKrJRAWmHdFwCQeGBU+rb+/b0ldw/9V8lOWw==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
