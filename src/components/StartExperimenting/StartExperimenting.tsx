@@ -52,19 +52,19 @@ const StartExperimenting = () => (
         md={{ span: 4, offset: 4 }}
         sm={{ span: 4 }}
       >
-        <h2 className={styles.content__header}>Join the community</h2>
+        <h2 className={styles.content__header}>Try out InstructLab</h2>
         <p className={styles.content__subhead}>
           To get started, download the ilab command line interface and a
-          quantized version of the latest model from the community GitHub.
+          quantized version of the latest model from GitHub.
         </p>
         <p className={styles.content__subhead}>
-          You can experiment locally until your model is producing the desired
-          outputs, and then contribute your skills recipes and knowledge sources
-          back to the community.
+          You can experiment locally with synthetic data generation, model
+          training, serving and chatting with the model to see if it produces
+          the desired outputs.
         </p>
         <Button href="https://github.com/instructlab" className={styles.action}>
           <GitHub className={styles.icon} />
-          <span>Join the community</span> <ArrowRight />
+          <span>Check out the project repos</span> <ArrowRight />
         </Button>
       </Column>
     </Grid>
@@ -76,10 +76,6 @@ const StartExperimenting = () => (
 
             <p>
               <a href="https://github.com/instructlab/">GitHub</a>
-              {' | '}
-              <a href="https://github.com/instructlab/community/blob/main/Collaboration.md">
-                Collaborate
-              </a>
               {' | '}
               <a href="https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md">
                 Code of Conduct
