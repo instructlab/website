@@ -20,7 +20,8 @@ const Leadspace = () => (
       >
         <h1 className={styles.content__header}>InstructLab</h1>
         <p className={styles.content__subhead}>
-          An open source project for enhancing LLMs used in generative AI applications
+          An open source project for enhancing LLMs used in generative AI
+          applications
         </p>
         <Button href="https://github.com/instructlab" className={styles.action}>
           <GitHub className={styles.icon} />
