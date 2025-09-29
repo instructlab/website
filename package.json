@@ -14,7 +14,7 @@
     "@carbon/react": "^1.76.0",
     "@react-hookz/web": "^25.1.1",
     "classnames": "^2.5.1",
-    "framer-motion": "^12.23.21",
+    "framer-motion": "^12.23.22",
     "next": "15.5.4",
     "react": "19.1.1",
     "react-animated-term": "^2.0.0",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
     "@types/node": "24.5.2",
-    "@types/react": "19.1.13",
+    "@types/react": "19.1.14",
     "@types/react-dom": "19.1.9",
     "@typescript-eslint/eslint-plugin": "^8.44.1",
     "eslint": "9.36.0",
