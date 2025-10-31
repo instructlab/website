@@ -19,7 +19,7 @@
     "react": "19.2.0",
     "react-animated-term": "^2.0.0",
     "react-dom": "19.2.0",
-    "react-intersection-observer": "^9.16.0"
+    "react-intersection-observer": "^10.0.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
