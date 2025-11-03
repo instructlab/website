@@ -1666,10 +1666,10 @@
   resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.4.tgz#d897170a2b0ba51f78a099edccd968f7b103387c"
   integrity sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==
 
-"@react-hookz/web@^25.1.1":
-  version "25.1.1"
-  resolved "https://registry.yarnpkg.com/@react-hookz/web/-/web-25.1.1.tgz#20adbcd56f7be938e5989ae3e7ba78801e9d4206"
-  integrity sha512-o1BA+5Z8PCuAnxF7+2TZI+xGBtzyLw8z/flD8AMeJXILYTM8HkI0g41oM7IW/qjUDKx30HKceQQpCKqFGj+iIw==
+"@react-hookz/web@^25.2.0":
+  version "25.2.0"
+  resolved "https://registry.yarnpkg.com/@react-hookz/web/-/web-25.2.0.tgz#53cab8807c0e8880f5e9660101e17254988c9b37"
+  integrity sha512-60iU7lGnZOjdkNVpu/8xNEnTPVQQ5ckauIEvsh9S+58v2j/mY1lhgNas+w+9UF8VoUhWC4/cpaxT64EUC6DgsQ==
   dependencies:
     "@ver0/deep-equal" "^1.0.0"
 
